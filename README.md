@@ -1,21 +1,23 @@
-MediDesktop: Java-Swing Hospital Management System
+# MediDesktop: Java-Swing Hospital Management System
 
-MediDesktop is a professional-grade software solution designed to automate organizational and medical processes in healthcare facilities. Developed as a term project for Software Engineering at the University of Gujrat, this system replaces inefficient paper-based records with a secure, centralized digital network.
+**MediDesktop** is a professional-grade software solution designed to optimize organizational and medical processes in healthcare facilities. [cite_start]Developed as a term project at the **University of Gujrat**, this system replaces inefficient paper-based records with a secure digital network. [cite: 12, 13, 277-279]
 
-Project 
-MetadataVersion:1.0 
-Development Date: April 2025
-Developers: M. Hassan Arif, M. Haseeb Hafeez, and Faran Mir
-Documentation: Software Requirements Specification & Technical Design Report
+## 📊 Project Metadata
+* [cite_start]**Version:** 1.0 (Approved) [cite: 10]
+* [cite_start]**Development Date:** April 2025 [cite: 14]
+* [cite_start]**Developers:** M. Hassan Arif, M. Haseeb Hafeez, and Faran Mir [cite: 11]
+* **Documentation:** [Software Requirements Specification](docs/MediDesktop-SRS-v1.0.pdf) & [Technical Design Report](docs/MediDesktop-Technical-Project-Report.pdf)
 
-Technical Stack
-Language: Java SE 
-GUI Framework: Java Swing / JFrame (Developed in NetBeans) 
-Database: SQL Server 2022 / MySQL with JDBC connectivity
+## 🛠 Technical Stack
+* [cite_start]**Language:** Java SE [cite: 121]
+* [cite_start]**GUI Framework:** Java Swing / JFrame (Developed in NetBeans) [cite: 121]
+* **Database:** SQL Server 2022 / MySQL with JDBC connectivity
+* [cite_start]**API Integration:** Payment gateways (Easypaisa/Jazzcash) and SMS notification systems [cite: 34, 171]
 
-Key Modules & Functional Requirements
+## 🚀 Key Modules & Functional Requirements
 The system is built around four core functional pillars:
-Registration: Allows users to securely sign up and log in using email and password validation.
-Doctor Management: Enables administrators to add, modify, view, and delete doctor profiles, including specialization and qualifications. 
-Appointment Management: A complete digital process for booking, modifying, and canceling appointments, featuring a token system for patient identification.
-Patient Records: Empowers doctors to add, update, view, and delete medical history via a unique patient ID to minimize errors.
+* [cite_start]**Registration:** Allows users to securely sign up and log in using email and password validation. [cite: 58, 178-180]
+* [cite_start]**Doctor Management:** Enables administrators to add, modify, view, and delete doctor profiles. [cite: 66, 183-186]
+* [cite_start]**Appointment Management:** A digital process for booking and canceling appointments, featuring a token system for patient identification. [cite: 59, 60, 189-192, 439]
+* [cite_start]**Patient Records:** Empowers doctors to add, update, and view medical history via a unique patient ID. [cite: 61-63, 150, 195-197]
+
